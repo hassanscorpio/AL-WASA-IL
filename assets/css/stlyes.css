@@ -1,0 +1,330 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+
+
+body{
+    background-image: url(https://avatars.mds.yandex.net/i?id=703abf88fd35c5d9fefab78ae18225aa68b4aa80-9238131-images-thumbs&n=13);
+    background-size: 100% 50px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+
+  }
+  .primary-navbar{
+    justify-content: space-around;
+    padding: 10px 20px;
+   margin-left: -100px;  
+  }
+  
+  .img img{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    
+
+  }
+  .email{
+    display: flex;
+
+  }
+  .fb img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 8px;
+  }
+  .twitter img ,.insta img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 8px;
+  }
+ 
+  .github img{
+    width: 30px;
+    height: 30px;
+    
+  }
+  
+  .address a,.details a,.links a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .location .text{
+    margin-top: 2px;
+  }
+  .help{
+    padding-right: 10px;
+  }
+  .faq{
+    padding-left: 10px;
+  }
+  .help span,.support span,.faq span{
+    padding-right: 6px;
+    color: orangered;
+    font-weight: bold;
+  }
+  .text span,.details p{
+    font-weight: 500;
+  }
+  
+
+
+
+  /* -----------------------------------------------Primary-navbar-end------------------------------------ */
+  
+.secondary-navbar .logo img{
+  width: 90px;
+  height: 90px;
+
+}
+.secondary-navbar .phone img{
+  width: 60px;
+  height: 60px;
+}
+.secondary-navbar-links{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  padding-left: 80px;
+}
+.secondary-navbar-links li{
+  margin-right: 40px;
+  
+}
+.secondary-navbar-links a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.secondary-navbar-links a:hover{
+  color: rgb(231, 94, 45);
+
+}
+.secondary-navbar-links .phone li{
+  margin: 0;
+}
+.secondary-navbar-links .phone{
+  margin:-10px;
+}
+.secondary-navbar-links .phone h5{
+  margin-top: 4px;
+}
+.secondary-navbar-links .phone h6{
+  margin-top: -5px;
+}
+.secondary-navbar-links .btn{
+  background-color: rgb(44, 41, 41);
+  color: white;
+}
+.secondary-navbar-links .btn:hover{
+  
+  background-color: rgb(231, 94, 45);
+  
+}
+.secondary-navbar-links .btn h6{
+  font-weight: 700;
+}
+.secondary-navbar{ 
+  
+  padding: 0px 50px;
+  margin-top: -10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------Secondary-navbar-end-------------------------------------------- */
+.main .img-container .main-img img{
+  width: 100%;
+  height: 500px;
+ object-fit: inherit;
+}
+.main-img {
+  position: relative;
+}
+
+.main-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for desired opacity */
+  z-index: 1;
+}
+.img-text .container h3{
+  font-weight: 600;
+  color: lightgray;
+
+}
+.main-img {
+  position: relative;
+}
+
+.img-text {
+  margin-top: 200px;
+  margin-left: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  
+  
+  color: wheat;
+  z-index: 2;
+}
+
+
+
+
+.img-text .container h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.img-text .container h3 {
+  font-size: 40pxpx;
+  margin-bottom: 20px;
+}
+
+
+.img-text .container .btn {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img-text .btn p {
+  margin: 0;
+  font-weight: bold;
+  
+}
+.img-text .btn p:hover{
+  color: white;
+  
+}
+.img-text .container .btn{
+  margin-top: 20px;
+  background-color: rgb(240, 34, 34);
+  color: white;
+}
+
+.img-text  .btn:hover{
+  background-color: rgb(66, 47, 47);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------media-querry-------------------------------------- */
+
+
+
+
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .primary-navbar {
+      flex-wrap: wrap;
+      margin-left: 0;
+    }
+  
+    .address,
+    .details,
+    .links {
+      margin-top: 10px;
+      justify-content: center;
+    }
+  
+    .email,
+    .location,
+    .help,
+    .support,
+    .faq {
+      margin-right: 15px;
+    }
+  
+  
+  
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
