@@ -31,7 +31,7 @@ body{
     
 
   }
-  .email{
+  .email,.address,.location,.details{
     display: flex;
 
   }
@@ -95,7 +95,7 @@ body{
   display: flex;
   justify-content: space-around;
   padding: 30px;
-  padding-left: 80px;
+  padding-left: 40px;
 }
 .secondary-navbar-links li{
   margin-right: 40px;
@@ -123,12 +123,12 @@ body{
   margin-top: -5px;
 }
 .secondary-navbar-links .btn{
-  background-color: rgb(44, 41, 41);
+  background-color: rgb(94, 109, 199);
   color: white;
 }
 .secondary-navbar-links .btn:hover{
   
-  background-color: rgb(231, 94, 45);
+  background-color: rgb(79, 82, 216);
   
 }
 .secondary-navbar-links .btn h6{
@@ -139,6 +139,11 @@ body{
   padding: 0px 50px;
   margin-top: -10px;
   
+}
+.menu-icon{
+  width: 40px;
+  height: 40px;
+  display: none;
 }
 
 
@@ -168,7 +173,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha value for desired opacity */
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha value for desired opacity */
   z-index: 1;
 }
 .img-text .container h3{
@@ -228,12 +233,12 @@ body{
 }
 .img-text .container .btn{
   margin-top: 20px;
-  background-color: rgb(240, 34, 34);
+  background-color: rgb(109, 144, 219);
   color: white;
 }
 
 .img-text  .btn:hover{
-  background-color: rgb(66, 47, 47);
+  background-color: rgb(84, 151, 238);
 }
 
 
@@ -262,69 +267,126 @@ body{
 
 
 /* ------------------------------------------------media-querry-------------------------------------- */
-
-
-
-
- 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-
+/* // `xs` returns only a ruleset and no media query */
+/* // ... { 
   
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .primary-navbar {
-      flex-wrap: wrap;
-      margin-left: 0;
-    }
-  
-    .address,
-    .details,
-    .links {
-      margin-top: 10px;
-      justify-content: center;
-    }
-  
-    .email,
-    .location,
-    .help,
-    .support,
-    .faq {
-      margin-right: 15px;
-    }
-  
-  
-  
+  } */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+ .header{
+  display: none;
+ }
+ }
+
+
+
+  /* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .primary-navbar .address .email , .primary-navbar .address .location{
+    display: none;
   }
-
-
+  .details{
+    margin-right: 100px;
+    margin-left: -80px;
+  }
+  /* -------------------primary navbar end ------------------------------------------ */
+  .logo {
+    margin-left: -80px;
+  }
+  .secondary-navbar-links{
+    display: none;
+  }
+  
+  
+  .menu-icon {
+    display: block;
+  }
+  .menu-icon img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+  }
+  .secondary-navbar{
+    justify-content: space-between;
+    
+  }
+  /* -----------------------------secondary-navbar-end--------------------------------------------------- */
+  .main .container{
+    margin: 0;
+    margin-left: -60px;
+  }
+  
   
 
 
-
-
-
-
-
-
-
-
 }
+  
+  
+  /* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .logo {
+    margin-left: -80px;
+  }
+  .secondary-navbar-links{
+    display: none;
+  }
+  
+  
+  .menu-icon {
+    display: block;
+  }
+  .menu-icon img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+  }
+  .secondary-navbar{
+    justify-content: space-between;
+  }
+  
+  
+  
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+
   
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .logo {
+    margin-left: -80px;
+  }
+  .secondary-navbar-links{
+    display: none;
+  }
   
+  
+  .menu-icon {
+    display: block;
+  }
+  .menu-icon img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+  }
+  .secondary-navbar{
+    justify-content: space-between;
+  }
 }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+
+
+
+
+
+
+
+
+
+
+
