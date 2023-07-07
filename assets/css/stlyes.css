@@ -279,7 +279,10 @@ body{
     display: none;
   }
   .details{
-    padding-left: 140px;
+    padding-left: 200px;
+  }
+  .links{
+    padding-right: 40px;
   }
   /*--------------------navbar-end --------------------------- */
   .main-img {
