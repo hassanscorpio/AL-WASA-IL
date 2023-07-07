@@ -275,9 +275,35 @@ body{
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
- .header{
-  display: none;
- }
+  .primary-navbar .address .email , .primary-navbar .address .location{
+    display: none;
+  }
+  .details{
+    padding-left: 140px;
+  }
+  /*--------------------navbar-end --------------------------- */
+  .main-img {
+    position: relative;
+  }
+  .img-text {
+    margin-top: 200px;
+    margin-left: 60px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    
+    
+    color: wheat;
+    z-index: 2;
+  }
+  
+  
+  
+ 
  }
 
 
