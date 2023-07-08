@@ -222,6 +222,10 @@ body{
   width: 400px;
   height: 400px;
 }
+.contact-section .container .flexer{
+  display: flex;
+}
+
 .contact-img img {
   filter: grayscale(100%);
   transition: filter 0.5s ease-in-out;
@@ -377,6 +381,30 @@ body{
     color: wheat;
     z-index: 2;
   }
+  .img-text{
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .flexer{
+    display: block;
+  }
+  .contact-section .container .contact-img img{
+    margin: 0 70px
+    
+  }.contact-section .container .contact-img-text{
+    margin-left: 80px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contact-section .pics-flex{
+    margin-left: -40px;
+  }
+  .contact-section .info{
+    margin-left: 80px;
+  }
+ 
+
   }
 
  
@@ -425,8 +453,10 @@ body{
     margin-left: -60px;
   }
   
-  
-
+  /* ---------------------------------------------main-------------------------------------------- */
+.contact-section .container .flexer{
+  display: block;
+}
 
 }
   
