@@ -353,18 +353,61 @@ justify-content: center;
   display: flex;
   justify-content: space-between;
 }
-.our-service-section .services-cards .card-a,.our-service-section .services-cards .card-b,.our-service-section .services-cards .card-c,.our-service-section .services-cards .card-d{
-border: 1px solid rgb(138, 138, 172);
-}
 
 
-.card-a img{
+
+.card-a img,.card-b img,.card-c img,.card-d img{
   filter: grayscale(100%);
   transition: filter 0.5s ease-in-out;
 }
-.card-a img:hover{
+.card-a img:hover,.card-b img:hover,.card-d img:hover,.card-c img:hover{
   filter: none;
 }
+.our-service-section .services-cards .card-a,
+.our-service-section .services-cards .card-b,
+.our-service-section .services-cards .card-c,
+.our-service-section .services-cards .card-d {
+
+  box-shadow: 6px 6px 6px  rgb(179, 179, 218); /* Add this line to apply the shadow */
+}
+.our-service-section .services-cards{
+  padding: 30px;
+  margin-top: 20px;
+}
+.effort {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  background-image: url('../imgs/meeting.png');
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  background-position: fixed;
+ 
+}
+.effort {
+  position: relative;
+}
+
+.effort::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 79, 105, 0.4); /* Adjust the alpha value for desired opacity */
+ 
+}
+
+
+
+  
+
+
+
+ 
+
 
 
 
