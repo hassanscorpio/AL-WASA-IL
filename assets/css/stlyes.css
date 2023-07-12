@@ -555,9 +555,10 @@ justify-content: center;
     display: block;
   }
   .contact-section .container .contact-img img{
-    margin: 0 70px
+    margin-left: -130px; 
     
-  }.contact-section .container .contact-img-text{
+  }
+  .contact-section .container .contact-img-text{
     margin-left: 80px;
     margin-top: 20px;
     text-align: center;
@@ -568,21 +569,30 @@ justify-content: center;
   .contact-section .info{
     margin-left: 80px;
   }
-  
-  .services-cards{
-    display: block;
-  }
-
-  .effort .btn{
-    margin-left: 150px;
-  }
-  .our-service-section .services-cards{
-    display: block;
-    display: none;
-  }
  
+  
+  
 
-  }
+ .effort .btn{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+}
+
+
+  
+ 
+ .card-a,.card-b,.card-c,.card-d{
+  margin-left: -120px;
+  margin-bottom: 20px;
+ }
+ .effort .btn{
+  display: none;
+ }
+
+
+  
 
  
   
