@@ -555,7 +555,7 @@ justify-content: center;
     display: block;
   }
   .contact-section .container .contact-img img{
-    margin-left: -130px; 
+    margin-left: -180px; 
     
   }
   .contact-section .container .contact-img-text{
@@ -584,8 +584,10 @@ justify-content: center;
   
  
  .card-a,.card-b,.card-c,.card-d{
-  margin-left: -120px;
+ 
   margin-bottom: 20px;
+  margin-left: -200px;
+ 
  }
  .effort .btn{
   display: none;
