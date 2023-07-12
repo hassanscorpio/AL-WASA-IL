@@ -399,6 +399,66 @@ justify-content: center;
   background-color: rgba(12, 79, 105, 0.4); /* Adjust the alpha value for desired opacity */
  
 }
+.company-value .effort h1,.company-value .effort p{
+ text-align: center;
+ color: white;
+ z-index:1;
+}
+.effort .btn{
+  background-color: #556ae6;
+ 
+  
+}
+.company-value .effort .video-icon img{
+  width: 120px;
+  height: 80px;
+ 
+}
+.company-value .effort .video-icon{
+  text-align: center;
+  padding-top: 30px;
+}
+.effort::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 15, 44, 0.4);
+  opacity: 0.8; /* Adjust the opacity value */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+.company-value .effort h1,
+.company-value .effort p {
+  text-align: center;
+  color: white; /* Adjust the text color */
+  font-weight: bold;
+
+  
+}
+.company-value .effort p{
+  font-size: 15px;
+}
+
+
+  
+.effort .btn {
+  width: 200px;
+  margin-left: 570px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -508,6 +568,18 @@ justify-content: center;
   .contact-section .info{
     margin-left: 80px;
   }
+  
+  .services-cards{
+    display: block;
+  }
+
+  .effort .btn{
+    margin-left: 150px;
+  }
+  .our-service-section .services-cards{
+    display: block;
+    display: none;
+  }
  
 
   }
@@ -559,9 +631,27 @@ justify-content: center;
   }
   
   /* ---------------------------------------------main-------------------------------------------- */
-.contact-section .container .flexer{
+ .img-text .container{
+  display: none;
+ }
+ .contact-section .contact-img,.contact-img-text,.info{
+  margin-left: 200px;
+ }
+  .contact-section .container .flexer{
   display: block;
 }
+.contact-img-text{
+  text-align: center;
+  margin-top: 20px;
+}
+.our-service-section .services-cards{
+  display: block;
+  margin-left: 150px;
+}
+.effort .btn{
+  margin-left: 260px;
+}
+
 
 }
   
@@ -587,7 +677,27 @@ justify-content: center;
   .secondary-navbar{
     justify-content: space-between;
   }
-  
+  .img-text .container{
+    display: none;
+  }
+  .contact-section .container .flexer{
+    justify-content: space-around;
+  }
+  .contact-img-text,.info{
+    margin-left: 20px;
+  }
+  .our-service-section .services-cards{
+    display: block;
+    margin-left: 155px;
+   
+  }
+  .service-text{
+    text-align: center;
+    align-items: center;
+  }
+  .effort .btn{
+    margin-left: 280px;
+  }
   
   
 
@@ -615,6 +725,12 @@ justify-content: center;
   }
   .secondary-navbar{
     justify-content: space-between;
+  }
+  .effort .btn{
+    margin-left: 390px;
+  }
+  .contact-img-text{
+    margin-left: 20px;
   }
 }
 
