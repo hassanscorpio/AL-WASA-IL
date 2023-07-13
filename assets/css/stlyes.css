@@ -432,22 +432,256 @@ justify-content: center;
 .company-value .effort h1,
 .company-value .effort p {
   text-align: center;
-  color: white; /* Adjust the text color */
-  font-weight: bold;
+  
+  
 
   
 }
-.company-value .effort p{
-  font-size: 15px;
+.company-value .effort h5{
+  font-size: 20px;
+  color: white;
 }
 
 
   
-.effort .btn {
+.effort .btn{
   width: 200px;
   margin-left: 570px;
   
 }
+
+/* -------------------------------------------Testimonial-Section------------------------------------------ */
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.Testimonial {
+
+ 
+  margin-top: 140px;
+ 
+}
+
+.Testimonial h6 {
+  background-color: rgb(126, 126, 248);
+  padding: 10px;
+  width: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius:6px; /* Add this line */
+  margin-bottom: 20px;
+}
+
+
+
+.Testimonial h2{
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(53, 51, 51);
+  text-align: center;
+}
+.Testimonial p{
+  font-size: 18px;
+
+  color: rgb(131, 128, 128);
+  margin-top: 20px;
+  text-align: center;
+}
+.container .client-card-1,.client-card-2,.client-card-3{
+  width: 350px;
+  height: 300px;
+ 
+}
+.container .client-card-1 .img-flexer img,.client-card-2 .img-flexer img,.client-card-3 .img-flexer img{
+  border-radius: 50%;
+  width: 80px;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+}
+.img-flexer li{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.img-flexer h4{
+  color: rgb(126, 126, 248) ;
+
+}
+
+.container .client-card-1 .img-flexer img:hover,.client-card-2 .img-flexer img:hover,.client-card-3 .img-flexer img:hover{
+  filter: none;
+}
+
+.client-card-1,.client-card-2,.client-card-3{
+  padding: 40px;
+}
+.client-card-1 p,.client-card-2 p,.client-card-3 p{
+  color:rgb(131, 128, 128);
+  font-weight: normal;
+  
+  
+}
+.client-card-1 h5,.client-card-2 h5,.client-card-3 h5{
+  font-size: 14px;
+  font-weight: normal;
+}
+.Testimonial .container{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  
+
+}
+.client-card-1,.client-card-2,.client-card-3{
+  box-shadow: 1px 1px 10px 1px ; /* Add this line to apply the shadow */
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------TEAM_------------------------------------------------ */
+.team-pics-flexer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.team .middle-text {
+text-align: center;
+}
+.team .middle-text h6{
+  padding: 8px;
+  background-color:  rgb(126, 126, 248);
+  width: 240px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 10px auto;
+  margin-top: 100px;
+  color: white;
+}
+.team .middle-text h2{
+  font-weight: bold;
+  color: rgb(43, 40, 40);
+}
+.team .middle-text p{
+  font-size: 16px;
+  
+  color:rgb(131, 128, 128) ;
+}
+.team-pics-flexer .card-1,.card-2,.card-3,.card-4{
+  border: none;
+}
+.team-pics-flexer .card-1 img,.card-2 img,.card-3 img,.card-4 img{
+  border-radius: 5px;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+  box-shadow: 1px 1px 10px 1px;
+  
+}
+.team-pics-flexer .card-1 img:hover,.team-pics-flexer .card-2 img:hover,.team-pics-flexer .card-3 img:hover,.team-pics-flexer .card-4 img:hover{
+  filter: none;
+}
+.team-pics-flexer .card-1 .card-body h4,.card-2 .card-body h4,.card-3 .card-body h4,.card-4 .card-body h4{
+  margin-top: 30px;
+  font-weight: bold;
+  
+}
+.team-pics-flexer .card-1 .card-body h5,.card-2 .card-body h5,.card-3 .card-body h5,.card-4 .card-body h5{
+  color:  skyblue;
+  margin-right: 10px;
+  margin-top: -20px;
+  font-size: 34px;
+}
+.team-pics-flexer .card-1 .card-body h6,.card-2 .card-body h6,.card-3 .card-body h6,.card-4 .card-body h6{
+  color:rgb(131, 128, 128) ;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------------News-Articles----------------------------------- */
+.news-article .middle-text{
+  text-align: center;
+}
+.news-article .middle-text h4{
+  width: 100px;
+  height: 36px;
+  padding: 2px;
+  background-color:  rgb(126, 126, 248);
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 100px;
+  color: white;
+}
+.news-article .middle-text h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 10px;
+
+}
+.news-article .middle-text p{
+font-size: 18px;
+color:rgb(131, 128, 128) ;
+}
+
+.article-pic-flexer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.article-pic-flexer .article-card-1 img,.article-card-2 img,.article-card-3 img{
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+}
+.article-pic-flexer .article-card-1 img:hover,.article-card-2 img:hover,.article-card-3 img:hover{
+  filter: none;
+}
+
+.article-card-1 .card-text,.article-card-2 .card-text,.article-card-3 .card-text{
+  margin-top: 30px;
+  width: 350px;
+  text-align: center;
+}
+.article-card-1 .card-text p,.article-card-2 .card-text p,.article-card-3 .card-text p{
+  font-size: 12px;
+  color: rgb(131, 128, 128);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -578,12 +812,7 @@ justify-content: center;
   margin-right: auto;
   display: block;
 }
-}
-
-
-  
- 
- .card-a,.card-b,.card-c,.card-d{
+.card-a,.card-b,.card-c,.card-d{
  
   margin-bottom: 20px;
   margin-left: -200px;
@@ -592,6 +821,12 @@ justify-content: center;
  .effort .btn{
   display: none;
  }
+}
+
+
+  
+ 
+ 
 
 
   
