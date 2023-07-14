@@ -647,6 +647,7 @@ color:rgb(131, 128, 128) ;
   display: flex;
   justify-content: space-evenly;
 }
+
 .article-pic-flexer .article-card-1 img,.article-card-2 img,.article-card-3 img{
   width: 350px;
   height: 200px;
@@ -660,7 +661,7 @@ color:rgb(131, 128, 128) ;
 
 .article-card-1 .card-text,.article-card-2 .card-text,.article-card-3 .card-text{
   margin-top: 30px;
-  width: 350px;
+  
   text-align: center;
 }
 .article-card-1 .card-text p,.article-card-2 .card-text p,.article-card-3 .card-text p{
@@ -821,6 +822,31 @@ color:rgb(131, 128, 128) ;
  .effort .btn{
   display: none;
  }
+ .Testimonial .container{
+  display: block;
+}
+.container .client-card-1,.client-card-2,.client-card-3{
+  margin: 20px auto;
+}
+.article-pic-flexer .article-card-1 img,.article-card-2 img,.article-card-3 img{
+  width: 100%;
+}
+.team-pics-flexer .card-1 img,.card-2 img,.card-3 img,.card-4 img{
+  width: 90%;
+}
+.contact-section .container .flexer .contact-img{
+  width: 100%;
+  height: 300px;
+  margin: 0 230px;
+}
+.contact-section .container .flexer .contact-img img{
+  width: 100%;
+  height: 100%;
+
+  
+ 
+}
+
 }
 
 
@@ -898,6 +924,21 @@ color:rgb(131, 128, 128) ;
 .effort .btn{
   margin-left: 260px;
 }
+.Testimonial .container{
+  display: block;
+}
+.container .client-card-1,.client-card-2,.client-card-3{
+  margin: 20px auto;
+}
+.team .team-pics-flexer{
+  display: block;
+}
+.team-pics-flexer .card-1,.card-2,.card-3,.card-4{
+  margin: 20px auto;
+}
+
+
+
 
 
 }
@@ -945,6 +986,21 @@ color:rgb(131, 128, 128) ;
   .effort .btn{
     margin-left: 280px;
   }
+
+  .Testimonial .container{
+    display: block;
+  }
+  .container .client-card-1,.client-card-2,.client-card-3{
+    margin: 20px auto;
+  }
+  .team .team-pics-flexer{
+    display: block;
+  }
+  .team-pics-flexer .card-1,.card-2,.card-3,.card-4{
+    margin: 20px auto;
+  }
+
+
   
   
 
@@ -979,6 +1035,28 @@ color:rgb(131, 128, 128) ;
   .contact-img-text{
     margin-left: 20px;
   }
+
+
+  .team .team-pics-flexer{
+    display: block;
+  }
+  .team-pics-flexer .card-1,.card-2,.card-3,.card-4{
+    margin: 20px auto;
+  }
+  .news-article .article-pic-flexer {
+    display: block;
+    margin: 20px auto; /* 'auto' centers the element horizontally */
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+}
+.news-article .article-pic-flexer .card-text h5{
+  text-align: center;
+  align-items: center;
+  
 }
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
