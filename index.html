@@ -6,7 +6,8 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/stlyes.css">
-</head>
+   
+  </head>
 
 <body>
 
@@ -423,38 +424,96 @@
 
 
             </Section><!-- /.news-article -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-
-          
-
-
-
-          
-
-
-
-
-        </main><!-- /.main -->
+         </main><!-- /.main -->
         <footer class="footer">
 
+          <div class="container ">
+            <div class="Al-wasil">
+              <h2>Al-Wasil</h2>
+              <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit, sed do <br>eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. Ut <br> enim ad minim veniam, quis <br> nostrud exercitation ullamco <br>laboris nisi ut aliquip.
+                Lorem ipsum  <br> dolor  sit amet, consectetur adipisicing <br> elit,   sed do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam, quis </p>
+            </div>
+            <div class="Headquarter">
+              <div class="flex d-flex"><h1>...</h1><h4>HEADQUATER</h4></div>
+             <div class="location-flex"> <img src="./assets/imgs/white-location-removebg-preview.png" alt=""><span>Dubai,Company UAE</span></div>
+             <div class="phone-flex"><img src="./assets/imgs/white-phone-removebg-preview.png" alt=""><span>+333-999-8888</span></div>
+             <div class="email-flex"><img src="./assets/imgs/whiteeeee-removebg-preview.png" alt=""><span>contact@yourname.com</span></div>
+             <div class="clock-flex"><img src="./assets/imgs/white-clock-removebg-preview.png" alt=""><span>Office Hours:8AM -11PM</span></div>
+                
+              
+            </div>
+            <div class="contact-info">
+              <div class="flex d-flex"><h1>...</h1><h4>CONTACT INFO</h4></div>
+              <div class="business d-flex"> <h6>>></h6><span>Business Planning</span></div>
+              <div class="manage d-flex"><h6>>></h6><span>Manage investment</span></div>
+              <div class="advice d-flex"><h6>>></h6><span>Financial advise</span></div>
+              <div class="insurance d-flex"><h6>>></h6><span>Insurance strategy</span></div>
+              
+             
+              
+            </div>
+            <div class="newsletter">
+              <div class="flex d-flex"><h1>...</h1><h4>NEWSLETTER</h4></div>
+              <p>Subscribe to update news from us </p>
+               
+              
+  <form id="emailForm" onsubmit="submitForm(event)">
+    
+    <input type="email" id="email" name="email" required>
+    <span id="error" class="error"></span>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function submitForm(event) {
+      event.preventDefault();
+      const emailInput = document.getElementById('email');
+      const errorSpan = document.getElementById('error');
+      const email = emailInput.value.trim();
+
+      if (validateEmail(email)) {
+        // Here, you can perform any additional actions before submitting the form
+        document.getElementById('emailForm').submit();
+      } else {
+        errorSpan.textContent = 'Invalid email format';
+      }
+    }
+
+    function validateEmail(email) {
+      const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      return emailRegex.test(email);
+    }
+  </script>
+
+
+
+              
+            </div>
+
+          </div> <!-- /.container -->
+         
+         <div class="footer-links">
+          <ul class="links">
+            <li><div class="fb"><a href=""><img src="./assets/imgs/white-fb-removebg-preview.png" alt=""></a></div></li>
+            <li><div class="twitter"><a href=""><img src="./assets/imgs/twit-removebg-preview.png" alt=""></a></div></li>
+            <li><div class="youtube"><a href=""><img src="./assets/imgs/white-youtube-removebg-preview.png" alt=""></a></div></li>
+            
+            <li><div class="wifi"><a href=""><img src="./assets/imgs/wifi1-removebg-preview.png" alt=""></a></div></li>
+            <li><div class="whatsapp"><a href=""><img src="./assets/imgs/what-removebg-preview.png" alt=""></a></div></li>
+          </ul>
+         </div><!-- /.footer-links -->
+         <div class="footer-contacts">
+          <div class="help d-flex"> <span>></span><a href=""><p>Help</p></a></div>
+          <div class="support d-flex"><span>></span><a href=""><p>Support</p></a></div>
+          <div class="faq d-flex"> <span>></span><a href=""><p>FAQ</p></a></div>
+          <div class="terms d-flex"><span>></span><a href=""><p>Terms & Conditions</p></a></div>
+          <div class="contactus d-flex"><span>></span><a href=""><p>Contact Us</p></a></div>
+         </div>
+         <!-- /.footer-contacts -->
+         <div class="last-line">
+          <p>© 2022 Damar – Consulting Company Inc. All Rights Reserved.</p>
+         </div><!-- /.last-line -->
 
         </footer><!-- /.footer -->
     </div><!-- /.Site-wrapper -->

@@ -168,6 +168,9 @@ body{
 
 
 /* -----------------------------------------Secondary-navbar-end-------------------------------------------- */
+
+
+
 .main .img-container .main-img img{
   width: 100%;
   height: 500px;
@@ -459,9 +462,12 @@ body, html {
 }
 
 .Testimonial {
+  padding-top: 100px;
+  background-color: rgb(236,236,236);
 
  
   margin-top: 140px;
+  height: 800px;
  
 }
 
@@ -617,6 +623,12 @@ text-align: center;
 
 
 /* --------------------------------------------------News-Articles----------------------------------- */
+.news-article{
+  padding-top: 10px;
+  
+  background-color: rgb(236,236,236);
+  height: 700px;
+}
 .news-article .middle-text{
   text-align: center;
 }
@@ -671,6 +683,149 @@ color:rgb(131, 128, 128) ;
 }
 
 
+
+/* --------------------------------------------------Footer---------------------------------------------- */
+
+.footer{
+
+  width: 100%;
+ height: 900px;
+  background-color: rgb(13,38,59);
+  color: white;
+
+}
+.footer a{
+  list-style: none;
+  text-decoration: none;
+}
+.footer .container{
+ padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .Al-wasil h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+.footer .container .Al-wasil p{
+  margin-top: 30px;
+  
+  font-size: 16px;
+}
+.Headquarter .img img{
+  width: 60px;
+  height: 60px;
+}
+.Headquarter .location-flex img{
+  width: 30px;
+  height: 30px;
+}
+.Headquarter .location-flex{
+  margin-top: 20px;
+}
+.Headquarter .phone-flex img,.email-flex img,.clock-flex img{
+  width: 40px;
+  height: 40px;
+}
+.Headquarter .location-flex,.email-flex,.clock-flex,.phone-flex{
+  padding: 10px 0;
+  
+  border-bottom: 1px solid gray;
+}
+.Headquarter .flex h1,.contact-info .flex h1,.newsletter h1{
+  font-weight: bolder;
+  margin-top: -20px;
+  margin-right: 20px;
+  
+}
+.contact-info .business,.manage,.advice,.insurance{
+  border-bottom: 1px solid lightgray;
+  padding: 14px;
+
+}
+.contact-info .business{
+  margin-top: 18px;
+}
+.contact-info h6{
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.contact-info span,.Headquarter span,.Al-wasil P,.newsletter p{
+color: #7b8690;
+}
+.newsletter p{
+  margin-top: 50px;
+}
+#emailForm{
+margin-top: 40px;
+}
+.footer .footer-links .links{
+  display: flex;
+  justify-content: center;
+}
+.footer .footer-links .links .fb img{
+  width: 50px;
+  height: 50px;
+  margin-top: -4px;
+}
+.footer .footer-links .links .twitter img{
+  width: 50px;
+  height: 50px;
+  margin-top: -4px;
+  
+}
+.footer .footer-links .links .whatsapp img{
+  width: 40px;
+  height: 40px;
+  
+}
+.footer .footer-links .links .youtube img{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.footer .footer-links .links .wifi img{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  
+}
+.footer .footer-links .links{
+  margin-top: 160px;
+}
+.footer-contacts{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-contacts a{
+  color: white;
+ 
+  
+  
+}
+.footer-contacts span{
+ color:  #7b8690;
+ font-weight: bold;
+ font-size: 20px;
+ margin-right: 10px;
+ margin-left: 10px;
+ 
+ 
+}
+.footer-contacts p{
+  margin-top: 3px;
+  color:#7b8690;
+  
+}
+.footer .last-line{
+  margin-top: 20px;
+  text-align: center;
+  color: #7b8690;
+}
 
 
 
@@ -846,6 +1001,7 @@ color:rgb(131, 128, 128) ;
   
  
 }
+
 
 }
 
