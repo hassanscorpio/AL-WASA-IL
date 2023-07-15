@@ -989,6 +989,10 @@ margin-top: 40px;
   
  
 }
+.footer-contacts{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 }
@@ -1085,6 +1089,31 @@ margin-top: 40px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
   
   
@@ -1143,7 +1172,22 @@ margin-top: 40px;
   .team-pics-flexer .card-1,.card-2,.card-3,.card-4{
     margin: 20px auto;
   }
-
+  .footer{
+    height: 1700px;
+    margin-top:200px;
+  }
+  .footer .container{
+    display: block;
+    text-align: center;
+    
+  }
+.Headquarter .flex,.contact-info .flex,.newsletter .flex{
+  margin-top: 20px;
+  justify-content: center;
+}
+.contact-info .business,.manage,.advice,.insurance{
+  justify-content: center;
+}
 
   
   
@@ -1201,6 +1245,10 @@ margin-top: 40px;
   text-align: center;
   align-items: center;
   
+}
+.footer .container{
+  justify-content: space-between;
+
 }
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
