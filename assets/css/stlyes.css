@@ -249,6 +249,9 @@ body{
   height: 60px;
   margin-top: 28px;
 }
+.pics-flex,.warranty-managment,.control-system{
+  display: flex;
+}
 .pics-flex .warranty-managment h6,.control-system h6{
   margin-top: 30px;
   
@@ -954,6 +957,14 @@ margin-top: 40px;
     margin-left: 80px;
     margin-top: 20px;
     text-align: center;
+  }
+  .pics-flex{
+    display: block;
+
+  }
+  .pics-flex .control-system,.pics-flex .warranty-managment{
+    display: flex;
+    justify-content: center;
   }
   
   .info{
